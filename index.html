@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+      <div class="form-container">
+         <form id="registerform">
+                 <input type="text" id="nama" placeholder="Masukan nama"
+                 required/>
+                 <input type="email" id="email" placeholder="Masukan email"
+                 required/>
+                 <input type="password" id="password" placeholder="Masukan password"
+                 required/>
+                 <input type="dateline" id="tanggal" placeholder="tanggal lahir"
+                 required/>
+                 
+                 <label>Jenis Kelamin:</label>
+                 <div class="radio-group">
+                   <input type="radio" name="gender" id="Laki-laki"
+                   value="Laki-laki" required/>
+                   <label for="Laki-laki">Laki-laki </label>
+                   <input type="radio" name="gender" id="wanita"
+                   value="wanita"/>
+                   <label for="wanita">wanita</label>
+                 </div
+                 
+                 <input type="text" id="tempat" placeholder="tempat tanggal lahir"
+                 required/>
+                 <input type="numer" id="no_telpon" placeholder="masukan no telpon"
+                 required/>
+                 <textarea id="alamat" rows="8" cols="40" placeholder="Masukan alamat lengkap"
+                 required></textarea>
+                 
+                <input type="checkbox"  id="setuju" />
+                <label for="setuju">Anda menyetujui Syarat dan ketentuan</label>
+
+
+              <a href="Login.html">Login</a>
+              <button type="submit">Buat Akun</button>
+          </from>
+        </div>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>nama</th>
+              <th>email</th>
+              <th>tanggal lahir</th>
+              <th>tempat tanggal</th>
+              <th>jenis kelamin</th>
+              <th>no telpon</th>
+              <th>alamat</th>
+            </tr>
+          </thead>
+          
+          <tbody>
+            <script src="script.js"></script>
+          </tbody>
+        </table>
+      </body>
+    </html>
